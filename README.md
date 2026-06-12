@@ -24,3 +24,46 @@ Before running this script, ensure you have the following installed on your syst
 
 ```bash
 pip install selenium webdriver-manager
+
+```
+
+*(Note: `webdriver-manager` automatically downloads the correct ChromeDriver for your system, saving you the hassle of manual browser driver updates!)*
+
+## 🚀 How to Use
+
+1. Run the script from your terminal:
+```bash
+python scraper.py
+
+```
+
+
+*(Replace `scraper.py` with whatever you named your Python file).*
+2. The script will prompt you to enter a YouTube channel URL. You can enter formats like:
+* `https://www.youtube.com/@ChannelName`
+* `https://www.youtube.com/@ChannelName/shorts`
+* `https://www.youtube.com/@ChannelName/streams`
+
+
+3. A Chrome browser will launch automatically. **Do not close it.** The script will begin scrolling and printing the links it finds in your terminal.
+4. Once it reaches the bottom of the channel, it will tell you how many links were extracted. Press `Enter` in your terminal to safely close the browser.
+
+## 📄 Output
+
+The script generates a file named **`youtube_links.csv`** in the same directory. It contains a single column with all the extracted URLs:
+
+```csv
+Video Link
+[https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[https://www.youtube.com/shorts/abcdefghijk](https://www.youtube.com/shorts/abcdefghijk)
+...
+
+```
+
+## ⚠️ Disclaimer
+
+This script is for educational and personal use. Web scraping is subject to YouTube's Terms of Service. Be mindful of how frequently you use automated tools to avoid having your IP address temporarily rate-limited by Google.
+
+```
+
+```
