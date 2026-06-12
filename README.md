@@ -64,6 +64,3 @@ Video Link
 
 This script is for educational and personal use. Web scraping is subject to YouTube's Terms of Service. Be mindful of how frequently you use automated tools to avoid having your IP address temporarily rate-limited by Google.
 
-```
-
-```
